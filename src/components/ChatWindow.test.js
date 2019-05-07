@@ -1,3 +1,5 @@
+
+
 describe("Chat Window", () => {
   it("should show an online user as being online", () => {
     const expected = true;
