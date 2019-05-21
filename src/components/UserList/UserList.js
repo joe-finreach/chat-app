@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useContext } from "react";
+
+import { ChatWindowContext } from "../ChatWindow/ChatWindow";
 
 function setActiveUser(showUserMessages, id) {
   return () => showUserMessages(id);
 }
 
-export const UserList = ({ users, showUserMessages }) => {
+export const UserList = ({ showUserMessages }) => {
+  const { users } = useContext(ChatWindowContext);
   return (
     <ul>
       {users.map(({ id, isOnline, userName }) => {
