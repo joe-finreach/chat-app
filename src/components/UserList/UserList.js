@@ -14,7 +14,7 @@ export const UserList = ({ showUserMessages }) => {
         return (
           <li key={id} data-id="users-list-item">
             <span className={isOnline ? "user-online" : "user-offline"}>
-              <button onClick={setActiveUser(showUserMessages, id)}>{userName}</button>{" "}
+              <button onClick={setActiveUser(showUserMessages, id)} className="user-select">{userName}</button>
             </span>
           </li>
         );
