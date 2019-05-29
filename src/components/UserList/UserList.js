@@ -9,7 +9,7 @@ function setActiveUser(showUserMessages, id) {
 export const UserList = ({ showUserMessages }) => {
   const { users } = useContext(ChatWindowContext);
   return (
-    <ul>
+    <ul id="users-list">
       {users.map(({ id, isOnline, userName }) => {
         return (
           <li key={id} data-id="users-list-item">
