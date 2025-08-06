@@ -5,7 +5,7 @@
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.0"
+    "react-scripts": "5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -31,7 +31,7 @@
   },
   "devDependencies": {
     "@storybook/addon-actions": "^5.0.11",
-    "@storybook/react": "^5.0.11",
+    "@storybook/react": "^9.1.1",
     "enzyme": "^3.9.0",
     "enzyme-adapter-react-16": "^1.12.1",
     "prettier": "^1.17.0",
